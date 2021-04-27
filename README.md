@@ -77,26 +77,6 @@ The datasets used and sources include:
 #### Capstone DAG
 ![capstone_dag](img/capstone_dag.png "Capstone DAG")
 
-## Installation
-Clone the repo from github by running:
-```
-$ git clone git@github.com:jonathankamau/udend-capstone-project.git
-```
-Once cloned, create a virtualenv on your local machine that will be your local development environment:
-```
-$ virtualenv sparkify-project
-$ source sparkify-project/bin/activate
-```
-
-If running on your local machine, ensure that you have the following main requirements installed in the virtualenv:
-- pyspark
-- apache-airflow
-- psycopg2
-
-Alternatively you can install them from the provided `requirements.txt` file by running the following in your virtual environment.
-```
-$ pip install -r requirements.txt
- ```
 
 ## Workflow/Process
 1. A sample size of the json data files that were processed by spark are already part of this project's files. You can find them in `data/processed-data`. If you would wish to generate them from scratch, you can follow the same step by step process I went through [here](#Steps-to-generate-the-s3-bound-json-data-files)
