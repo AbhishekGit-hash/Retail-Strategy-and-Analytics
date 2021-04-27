@@ -139,8 +139,6 @@ $ pip install -r requirements.txt
     ```
  This will create a new set of json data files in `data/processed-data`. __NOTE__ This may take a while due to the nature of the size of some of the datasets.
 
-## Suggestion for data update frequency
-The data should be updated daily if possible, so that the star schema tables are always updated with the most recent data for a more accurate analysis. 
 
 ## Possible Scenarios that may arise and how they can be handled.
 - If the data gets increased by 100x:
@@ -154,7 +152,7 @@ The data should be updated daily if possible, so that the star schema tables are
     - Utilizing Concurrency Scaling on Redshift by setting it to auto and allocating it's usage to specific user groups and workloads. This will boost query processing for an increasing amount of users.
 
 ## Built With
-- Python 2.7, Airflow and pySpark
+- Python 2.7, Tableau
 
 ## Authors
 - Abhishek Chowdhury - [Github Profile](https://github.com/AbhishekGit-hash)
