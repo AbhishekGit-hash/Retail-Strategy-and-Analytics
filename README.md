@@ -11,11 +11,16 @@ The first step towards generating useful insights from the data was the data pre
 In the data cleaning step the data quality of the datasets was firstly assesed. After a data quality assessment the following data quality issues was observed and the necessary process to mitigate the issue was followed :
 - The Date column in the  dataset was in integer format ie. number of days from Dec 30, 1985. Hence this column was converted to datetime format taking Dec 30, 1985 as a referennce date.
 - Removed outlier records based on the PROD_QTY (quantity purchased of a particular product) column.
-- Our analysis concentrated on Chips products. Hence the "PROD_NAME" (Product Name) column was split and frequency of each word was counted then all rows containing "salsa" in "PROD_NAME" was removed. 
+- The analysis concentrated on Chips products. Hence the "PROD_NAME" (Product Name) column was split and frequency of each word was counted then all rows containing "salsa" in "PROD_NAME" was removed. 
 - A new feature namely Brand was created by extracting the brand name from the product name "PROD_NAME"
+- Checked whether there are duplicate records present in the dataset. 
 
-### 2. Data Analysis on Customer Segments
-- 
+### 2. Exploratory Data Analysis
+After the data cleaning process, we can conduct data analysis and define metrics of interest.
+
+#### 2.1 Customer Segments
+In this segment we defined mertics of interest that will drive metrics of interest that will drive our analysis :
+- Customer Segments who spend the most on chips, described based on their lifestage and the premium tier they belong to. 
 
 ## Database Model
 The project comprises of a redshift postgres database in the cluster with staging tables that contain all the data retrieved from the s3 bucket and copied over to the tables. It also contains a fact table `fact_city_data_table` and three dimensional tables namely `dim_airport_table`, `dim_demographic_table` and `dim_visitor_table`. The data model representation for the fact and dimension tables is as below:
