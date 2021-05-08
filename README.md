@@ -5,7 +5,7 @@ The purpose of this project is to gain insights from the yearly transactions and
 
 
 ## Analysis Approach
-<b>###1. Data Preparation and Customer Analytics : </b> 
+### 1. Data Preparation and Customer Analytics :
 The project 
 
 ## Database Model
