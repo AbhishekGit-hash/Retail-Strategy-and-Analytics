@@ -15,12 +15,30 @@ In the data cleaning step the data quality of the datasets was firstly assesed. 
 - A new feature namely Brand was created by extracting the brand name from the product name "PROD_NAME"
 - Checked whether there are duplicate records present in the dataset. 
 
-### 2. Exploratory Data Analysis
-After the data cleaning process, we can conduct data analysis and define metrics of interest.
-
-#### 2.1 Customer Segments
-In this segment we defined mertics of interest that will drive metrics of interest that will drive our analysis :
+### 2 Exploratory Data Analysis on Customer Segments
+After the data cleaning process, we defined mertics of interest that will drive metrics of interest that will drive our analysis :
 - Customer Segments who spend the most on chips, described based on their lifestage and the premium tier they belong to. 
+Sales are coming mainly from Budget - older families ($ 168,363), Mainstream - young singles/couples ($ 157,622) and Mainstream- retirees ($ 155,677) which contributes to 25% of the total sales of $ 1,933 K.
+Chart
+
+- Young Singles/Couples (Mainstream) has the highest population, followed by Retirees (Mainstream). Which explains their high total sales.
+There are more Mainstream - young singles/couples and Mainstream - retirees who buy chips. This contributes to there being more sales to these customer segments but this is not a major driver for the Budget - Older families segment.
+Higher sales may also be driven by more units of chips being bought per customer. Let’s have a look at this next
+Chart
+
+- Affluence appears consistent across each individual life stage profile; Older and Young Family shoppers purchase the highest avg units per transaction
+- Price per unit purchase
+Mainstream midage and young singles and couples are more willing to pay more per packet of chips compared to their budget and premium counterparts. This may be due to premium shoppers being more likely to buy healthy snacks and when they buy chips, this is mainly for entertainment purposes rather than their own consumption. This is also supported by there being fewer premium midage and young singles and couples buying chips compared to their mainstream counterparts.
+
+Chart
+
+- Chips brand Kettle is dominating every segment as the most purchased brand.Most frequent chip size purchased is 175gr followed by the 150gr chip size for all segments.
+
+
+t-test
+
+### 3 Deep Drive into Customer Segments for Insights
+- Recomendations
 
 ## Database Model
 The project comprises of a redshift postgres database in the cluster with staging tables that contain all the data retrieved from the s3 bucket and copied over to the tables. It also contains a fact table `fact_city_data_table` and three dimensional tables namely `dim_airport_table`, `dim_demographic_table` and `dim_visitor_table`. The data model representation for the fact and dimension tables is as below:
