@@ -37,7 +37,7 @@ Chart
 
 t-test
 
-### 3 Deep Drive into Customer Segments for Insights
+### 3 Experimentation and Uplift testing
 - Recomendations
 
 ## Database Model
