@@ -26,7 +26,7 @@ Young Singles/Couples (Mainstream) has the highest population, followed by Retir
 
 Chart
 
-Higher sales may also be driven by more units of chips being bought per customer. Let’s have a look at this next
+    Higher sales may also be driven by more units of chips being bought per customer. Let’s have a look at this next
 
 - 
 Affluence appears consistent across each individual life stage profile; Older and Young Family shoppers purchase the highest avg units per transaction
