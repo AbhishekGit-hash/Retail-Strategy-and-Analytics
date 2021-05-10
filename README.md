@@ -21,12 +21,15 @@ After the data cleaning process, we defined mertics of interest that will drive 
 Sales are coming mainly from Budget - older families ($ 168,363), Mainstream - young singles/couples ($ 157,622) and Mainstream- retirees ($ 155,677) which contributes to 25% of the total sales of $ 1,933 K.
 Chart
 
-- Young Singles/Couples (Mainstream) has the highest population, followed by Retirees (Mainstream). Which explains their high total sales.
-There are more Mainstream - young singles/couples and Mainstream - retirees who buy chips. This contributes to there being more sales to these customer segments but this is not a major driver for the Budget - Older families segment.
-Higher sales may also be driven by more units of chips being bought per customer. Let’s have a look at this next
+- Number of Customers
+Young Singles/Couples (Mainstream) has the highest population, followed by Retirees (Mainstream) which explains their high total sales. There are more Mainstream - young singles/couples and Mainstream - retirees who buy chips. This contributes to there being more sales to these customer segments but this is not a major driver for the Budget - Older families segment.
+
 Chart
 
-- Affluence appears consistent across each individual life stage profile; Older and Young Family shoppers purchase the highest avg units per transaction
+Higher sales may also be driven by more units of chips being bought per customer. Let’s have a look at this next
+
+- 
+Affluence appears consistent across each individual life stage profile; Older and Young Family shoppers purchase the highest avg units per transaction
 - Price per unit purchase
 Mainstream midage and young singles and couples are more willing to pay more per packet of chips compared to their budget and premium counterparts. This may be due to premium shoppers being more likely to buy healthy snacks and when they buy chips, this is mainly for entertainment purposes rather than their own consumption. This is also supported by there being fewer premium midage and young singles and couples buying chips compared to their mainstream counterparts.
 
