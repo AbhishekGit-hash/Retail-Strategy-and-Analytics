@@ -17,7 +17,7 @@ In the data cleaning step the data quality of the datasets was firstly assesed. 
 
 ### 2 Exploratory Data Analysis on Customer Segments
 After the data cleaning process, we defined mertics of interest that will drive metrics of interest that will drive our analysis :
-- <b>Customer Segments who spend the most on chips, described based on their lifestage and the premium tier they belong to.</b><br> 
+- <b>Customer Segments who spend the most on chips, described based on their lifestage and the premium tier they belong</b><br> 
 Sales are coming mainly from Budget - older families ($ 168,363), Mainstream - young singles/couples ($ 157,622) and Mainstream- retirees ($ 155,677) which contributes to 25% of the total sales of $ 1,933 K.
 Chart
 
