@@ -15,7 +15,7 @@ In the data cleaning step the data quality of the datasets was firstly assesed. 
 - A new feature namely Brand was created by extracting the brand name from the product name "PROD_NAME"
 - Checked whether there are duplicate records present in the dataset. 
 
-### 2 Exploratory Data Analysis on Customer Segments
+### 2. Exploratory Data Analysis on Customer Segments
 After the data cleaning process, we defined mertics of interest that will drive metrics of interest that will drive our analysis :
 - <b>Customer Segments who spend the most on chips, described based on their lifestage and the premium tier they belong</b><br> 
 Sales are coming mainly from Budget - older families ($ 168,363), Mainstream - young singles/couples ($ 157,622) and Mainstream- retirees ($ 155,677) which contributes to 25% of the total sales of $ 1,933 K.
@@ -40,7 +40,7 @@ Chart
 
 t-test
 
-### 3 Experimentation and Uplift testing
+### 3. Experimentation and Uplift testing
 - Recomendations
 
 ## Database Model
