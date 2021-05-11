@@ -63,7 +63,7 @@ The datasets used include:
 
 | Table Column | Data Type | Description |
 | ------------ | ---------- | --------- |
-| TXN_ID (PRIMARY_KEY) | varchar(50)  | primary key for Transaction ID |
+| TXN_ID (PRIMARY_KEY) | integer  | primary key for Transaction ID |
 |  DATE | integer | Occurance date of Transaction  |
 | STORE_NBR | integer | Store Number at which the purchase transaction happened |
 | LYLTY_CARD_NBR (FOREIGN KEY) | integer | Customer's Liability Number |
