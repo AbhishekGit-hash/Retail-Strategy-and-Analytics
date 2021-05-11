@@ -19,7 +19,7 @@ In the data cleaning step the data quality of the datasets was firstly assesed. 
 After the data cleaning process, we defined mertics of interest that will drive metrics of interest that will drive our analysis :
 - <b>Customer Segments who spend the most on chips, described based on their lifestage and the premium tier they belong</b><br> 
 Sales are coming mainly from Budget - older families ($ 168,363), Mainstream - young singles/couples ($ 157,622) and Mainstream- retirees ($ 155,677) which contributes to 25% of the total sales of $ 1,933 K.
-
+<img src="data%20visualization/Sales%20across%20Customer%20Segments.png" height="700" align="middle">
 
 - Number of Customers
 Young Singles/Couples (Mainstream) has the highest population, followed by Retirees (Mainstream) which explains their high total sales. There are more Mainstream - young singles/couples and Mainstream - retirees who buy chips. This contributes to there being more sales to these customer segments but this is not a major driver for the Budget - Older families segment.
