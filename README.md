@@ -45,35 +45,32 @@ Chips brand Kettle is dominating every segment as the most purchased brand.Most 
 
 ## Datasets Used
 The datasets used include:
-- __Purchase_Behaviour.csv__: This data is retrieved from the US National Tourism and Trade Office and the source can be found
-- __Transaction_data.xlsx__: This dataset came from Kaggle and you can find out about it
+- __Purchase_Behaviour.csv__: This dataset contains the customer related data like their Liability Number, Lifestage and to which Premium Tier they belong.
+- __Transaction_data.xlsx__: This dataset includes the transaction details for customer.
 
 
 ## Data Dictionary
-The project comprises of a redshift postgres database in the cluster with staging tables that contain all the data retrieved from the s3 bucket and copied over to the tables. It also contains a fact table `fact_city_data_table` and three dimensional tables namely `dim_airport_table`, `dim_demographic_table` and `dim_visitor_table`. The data model representation for the fact and dimension tables is as below:
 
-### City Fact Table
+### Purchase_Behaviour
 
 | Table Column | Data Type | Description |
 | -------- | ------------- | --------- |
-| city_id (PRIMARY_KEY) | varchar(32)  | auto generated primary key|
-|  city_name | varchar(32) | name of city |
-| country | varchar(32) | name of country |
-| latitude | varchar(10) | latitude value |
-| longitude | varchar(10) | longitude value |
-| average_temperature | numeric |  average temperature of the city |
-| date | date | date of temperature recording |
+| LYLTY_CARD_NBR (PRIMARY_KEY) | integer  | Liability Number of a customer, primary key to identify a customer |
+|  LIFESTAGE | varchar(32) | Lifestage of the customer like young / midage / old singles or couples |
+| PREMIUM_CUSTOMER | varchar(32) | Premium Level of the Customer like Mainstream / Budget / Premium |
 
-### Airport Dimension Table
+### Transaction_data
 
 | Table Column | Data Type | Description |
 | ------------ | ---------- | --------- |
-| airport_id (PRIMARY_KEY) | varchar(50)  | auto generated primary key|
-|  airport_code | varchar(50) | airport short code |
-| name | varchar(500) | name of airport |
-| continent | varchar(50) | continent code |
-| country_code | varchar(32) | country code |
-| state | varchar(32) |  state code |
+| TXN_ID (PRIMARY_KEY) | varchar(50)  | primary key for Transaction ID |
+|  DATE | integer | Occurance date of Transaction  |
+| STORE_NBR | integer | Store Number at which the purchase transaction happened |
+| LYLTY_CARD_NBR (FOREIGN KEY) | integer | Customer's Liability Number |
+| PROD_NBR | integer | Product Number of the product  |
+| PROD_NAME | varchar(32) |  Product Name |
+| PROD_QTY | integer |  Product Quantity purchased |
+| TOT_SALES | integer | Total Sales Amount |
 
 
 ## Tools and Technologies used
