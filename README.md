@@ -76,7 +76,7 @@ The datasets used include:
 ## Tools and Technologies used
 The tools used in this project include:
 - __Python__ - This was needed to conduct <b>Data Quality Assessment</b> and also for <b>Data Cleaning processes</b>. With Python libraries <b>pandas, matplotlib, seaborn</b> exploratory data analysis of the datasets and to gain useful insights from the data was possible.
-- __Tableau__ - This was required to automate workflows, namely uploading processed json files from the local filesystem to s3, creating the staging, fact and dimension tables, copying the s3 files to the redshift staging table then performing ETL to load the final data to the fact and dimension tables. This is all done by pre-configured dags, 
+- __Tableau__ - This <b>Business Intelligence</b> tool was required to explore data, create charts and graphs and finally come up with a <b>data story</b> of the analysis of Retail Strategy.
 
 
 ## Built With
