@@ -32,7 +32,9 @@ Affluence appears consistent across each individual life stage profile; Older an
 - <b>Average price of pack bought per unit purchase of chips across Customer Segments</b><br>
 Mainstream midage and young singles and couples are more willing to pay more per packet of chips compared to their budget and premium counterparts. This may be due to premium shoppers being more likely to buy healthy snacks and when they buy chips, this is mainly for entertainment purposes rather than their own consumption. This is also supported by there being fewer premium midage and young singles and couples buying chips compared to their mainstream counterparts.
 <img src="data%20visualization/Average%20Price%20of%20Chips%20per%20unit%20of%20purchase.png" height="700" align="middle">
-
+The difference in average price of chips pack isn't quite large across the customer segments. Hence performed <b>Two Sample t-test</b> to find out whether this difference in average price is statistically different. <br>
+The t-test results in a p-value came to be < 2.2e-16. Hence it means that the average price for mainstream young and midage singles and couples are significantly higher than that of budget or premium young and midage singles and couples.<br>
+<br>
 - <b>Brand and Pack Size preferred across Customer Segments</b><br>
 Chips brand Kettle is dominating every segment as the most purchased brand.Most frequent chip size purchased is 175gr followed by the 150gr chip size for all segments.
 <img src="data%20visualization/Brand%20and%20Pack%20size%20Popularity%20across%20segments.png" height="700" align="middle">
