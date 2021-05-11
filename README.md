@@ -45,8 +45,8 @@ Chips brand Kettle is dominating every segment as the most purchased brand.Most 
 
 ## Datasets Used
 The datasets used include:
-- __I94 Immigration Data__: This data is retrieved from the US National Tourism and Trade Office and the source can be found
-- __World Temperature Data__: This dataset came from Kaggle and you can find out about it
+- __Purchase_Behaviour.csv__: This data is retrieved from the US National Tourism and Trade Office and the source can be found
+- __Transaction_data.xlsx__: This dataset came from Kaggle and you can find out about it
 
 
 ## Data Dictionary
