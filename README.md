@@ -21,24 +21,22 @@ After the data cleaning process, we defined mertics of interest that will drive 
 Sales are coming mainly from Budget - older families ($ 168,363), Mainstream - young singles/couples ($ 157,622) and Mainstream- retirees ($ 155,677) which contributes to 25% of the total sales of $ 1,933 K.
 <img src="data%20visualization/Sales%20across%20Customer%20Segments.png" height="700" align="middle">
 
-- Number of Customers
-Young Singles/Couples (Mainstream) has the highest population, followed by Retirees (Mainstream) which explains their high total sales. There are more Mainstream - young singles/couples and Mainstream - retirees who buy chips. This contributes to there being more sales to these customer segments but this is not a major driver for the Budget - Older families segment.
+- <b>Number of Customers in each Customer Segment</b><br>
+Young Singles/Couples (Mainstream) has the highest population, followed by Retirees (Mainstream) which explains their high total sales. There are more Mainstream - young singles/couples and Mainstream - retirees who buy chips. This contributes to there being more sales to these customer segments but this is not a major driver for the Budget - Older families segment. However amount of chips bought per customer can be a determining factor for higher sales.
+<img src="data%20visualization/Number%20of%20Shoppers.png" height="700" align="middle">
 
-Chart
+- <b>Amount of chips bought per Customer Segment</b><br>
+Affluence appears consistent across each individual life stage profile; Older and Young Family shoppers purchase the highest average units of chips pack per transaction.
+<img src="data%20visualization/Average%20Units%20of%20chips%20purchased%20per%20Transaction.png" height="700" align="middle">
 
-   Higher sales may also be driven by more units of chips being bought per customer. Let’s have a look at this next
-
-- 
-Affluence appears consistent across each individual life stage profile; Older and Young Family shoppers purchase the highest avg units per transaction
-- Price per unit purchase
+- <b>Average price of pack bought per unit purchase of chips across Customer Segments</b><br>
 Mainstream midage and young singles and couples are more willing to pay more per packet of chips compared to their budget and premium counterparts. This may be due to premium shoppers being more likely to buy healthy snacks and when they buy chips, this is mainly for entertainment purposes rather than their own consumption. This is also supported by there being fewer premium midage and young singles and couples buying chips compared to their mainstream counterparts.
+<img src="data%20visualization/Average%20Price%20of%20Chips%20per%20unit%20of%20purchase.png" height="700" align="middle">
 
-Chart
+- <b>Brand and Pack Size preferred across Customer Segments</b><br>
+Chips brand Kettle is dominating every segment as the most purchased brand.Most frequent chip size purchased is 175gr followed by the 150gr chip size for all segments.
+<img src="data%20visualization/Brand%20and%20Pack%20size%20Popularity%20across%20segments.png" height="700" align="middle">
 
-- Chips brand Kettle is dominating every segment as the most purchased brand.Most frequent chip size purchased is 175gr followed by the 150gr chip size for all segments.
-
-
-t-test
 
 ### 3. Experimentation and Uplift testing
 - Recomendations
