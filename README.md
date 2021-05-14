@@ -59,7 +59,9 @@ The trial store and control store pairs are geiven below :
 - For trail store 88, the control store is 237
 
 Visualizations depicting how similar trial stores and control strores are is given below :
-<img src="Trial_Store_77.png" height="700" align="middle">
+<img src="data%20visualization/Trial_Store_77.png" height="700" align="middle">
+<img src="data%20visualization/Trial_Store_77.png" height="700" align="middle">
+<img src="data%20visualization/Trial_Store_77.png" height="700" align="middle">
 
 
 ### 4. Recomendations
