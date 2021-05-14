@@ -61,9 +61,6 @@ The trial store and control store pairs are geiven below :
 Visualizations depicting how similar trial stores and control strores are is given below :
 <img src="Trial_Store_77.png" height="700" align="middle">
 
-<img src="Trial_Store_86.png" height="700" align="middle">
-
-<img src="Trial_Store_88.png" height="700" align="middle">
 
 ### 4. Recomendations
 
