@@ -41,7 +41,29 @@ Chips brand Kettle is dominating every segment as the most purchased brand.Most 
 
 
 ### 3. Experimentation and Uplift testing
-- Recomendations
+In this stage of analysis benchmark stores or control stores are established and their impact in trial store layouts on customer sales and number of customers visting the stores are tested and compared. Stores with store number 77, 86 and 88 are seleteced as trial stores and the goal is to establish control stores for each of these trial stores.The stores which were operational for the entire observation period (i.e. for the entire year, 12 months of data) are eligible to be a control store.
+
+Thereafter a comparison of control stores and trial stores are done prior to the trial period of Feb 2019 in terms of the following performance metrics :
+- Monthly overall sales revenue
+- Monthly number of customers
+
+The ranking of how similar a potential store is similar to a trial store is based on a composite score of the following :
+- correlation between the trial store’s performance and each control store’s performance
+- standardised metric based on the absolute difference between the trial store’s performance and each control store’s performance
+
+The final composite score is simple average of the correlation and magnitude scores for each driver. The store with the highest composite score is then selected as the control store since it is most similar to the trial store.
+
+The trial store and control store pairs are geiven below :
+- For trail store 77, the control store is 233
+- For trail store 86, the control store is 155
+- For trail store 88, the control store is 237
+
+Visualizations depicting how similar trial stores and control strores are is given below :
+<img src="Trial%20Store%2077.png" height="700" align="middle">
+<img src="Trial%20Store%2086.png" height="700" align="middle">
+<img src="Trial%20Store%2088.png" height="700" align="middle">
+
+### 4. Recomendations
 
 ## Datasets Used
 The datasets used include:
