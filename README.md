@@ -63,8 +63,6 @@ Visualizations depicting how similar trial stores and control strores are is giv
 <img src="data%20visualization/Trial%20Store%2086.png" height="700" align="middle"><br>
 <img src="data%20visualization/Trial%20Store%2088.png" height="700" align="middle"><br>
 
-### 4. Recommendations
-
 ## Datasets Used
 The datasets used include:
 - __Purchase_Behaviour.csv__: This dataset contains the customer related data like their Liability Number, Lifestage and to which Premium Tier they belong.
