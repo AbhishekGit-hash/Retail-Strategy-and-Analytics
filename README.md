@@ -23,7 +23,7 @@ Sales are coming mainly from Budget - older families ($ 168,363), Mainstream - y
 
 - <b>Number of Customers in each Customer Segment</b><br>
 Young Singles/Couples (Mainstream) has the highest population, followed by Retirees (Mainstream) which explains their high total sales. There are more Mainstream - young singles/couples and Mainstream - retirees who buy chips. This contributes to there being more sales to these customer segments but this is not a major driver for the Budget - Older families segment. However amount of chips bought per customer can be a determining factor for higher sales.
-<img src="data%20visualization/Number%20of%20Shoppers.png" height="700" align="middle">
+<img src="data%20visualization/Number%20of%20Shoppers.png" height="600" align="middle">
 
 - <b>Amount of chips bought per Customer Segment</b><br>
 Affluence appears consistent across each individual life stage profile; Older and Young Family shoppers purchase the highest average units of chips pack per transaction.
@@ -31,13 +31,13 @@ Affluence appears consistent across each individual life stage profile; Older an
 
 - <b>Average price of pack bought per unit purchase of chips across Customer Segments</b><br>
 Mainstream midage and young singles and couples are more willing to pay more per packet of chips compared to their budget and premium counterparts. This may be due to premium shoppers being more likely to buy healthy snacks and when they buy chips, this is mainly for entertainment purposes rather than their own consumption. This is also supported by there being fewer premium midage and young singles and couples buying chips compared to their mainstream counterparts.
-<img src="data%20visualization/Average%20Price%20of%20Chips%20per%20unit%20of%20purchase.png" height="700" align="middle">
+<img src="data%20visualization/Average%20Price%20of%20Chips%20per%20unit%20of%20purchase.png" height="600" align="middle">
 The difference in average price of chips pack isn't quite large across the customer segments. Hence performed <b>Two Sample t-test</b> to find out whether this difference in average price is statistically different. <br>
 The t-test results in a p-value came to be < 2.2e-16. Hence it means that the average price for mainstream young and midage singles and couples are significantly higher than that of budget or premium young and midage singles and couples.<br>
 <br>
 - <b>Brand and Pack Size preferred across Customer Segments</b><br>
 Chips brand Kettle is dominating every segment as the most purchased brand.Most frequent chip size purchased is 175gr followed by the 150gr chip size for all segments.
-<img src="data%20visualization/Brand%20and%20Pack%20size%20Popularity%20across%20segments.png" height="700" align="middle">
+<img src="data%20visualization/Brand%20and%20Pack%20size%20Popularity%20across%20segments.png" height="600" align="middle">
 
 
 ### 3. Experimentation and Uplift testing
@@ -59,9 +59,9 @@ The trial store and control store pairs are geiven below :
 - For trail store 88, the control store is 237
 
 Visualizations depicting how similar trial stores and control strores are is given below :<br>
-<img src="data%20visualization/Trial%20Store%2077.png" height="700" align="middle"><br>
-<img src="data%20visualization/Trial%20Store%2086.png" height="700" align="middle"><br>
-<img src="data%20visualization/Trial%20Store%2088.png" height="700" align="middle"><br>
+<img src="data%20visualization/Trial%20Store%2077.png" height="600" align="middle"><br>
+<img src="data%20visualization/Trial%20Store%2086.png" height="600" align="middle"><br>
+<img src="data%20visualization/Trial%20Store%2088.png" height="600" align="middle"><br>
 
 ## Datasets Used
 The datasets used include:
