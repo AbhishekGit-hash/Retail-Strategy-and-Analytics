@@ -8,7 +8,7 @@ The purpose of this project is to gain insights from the yearly transactions and
 ### 1. Data Quality Assessment and Data Cleaning
 The first step towards generating useful insights from the data was the data prepartion, quality assessment and data cleaning step. After the cleaning process exploratory data analysis on client's transaction dataset and identify customer purchasing behaviours to generate insights and provide commercial recommendations.
 
-In the data cleaning step the data quality of the datasets was firstly assesed. After a data quality assessment the following data quality issues was observed and the necessary process to mitigate the issue was followed :
+In the data cleaning step the data quality of the datasets were first assesed. After a data quality assessment the following data quality issues was observed and the necessary process to mitigate the issue was followed :
 - The Date column in the  dataset was in integer format ie. number of days from Dec 30, 1985. Hence this column was converted to datetime format taking Dec 30, 1985 as a referennce date.
 - Removed outlier records based on the PROD_QTY (quantity purchased of a particular product) column.
 - The analysis concentrated on Chips products. Hence the "PROD_NAME" (Product Name) column was split and frequency of each word was counted then all rows containing "salsa" in "PROD_NAME" was removed. 
